@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C H A L L I</title>
+    <link rel="icon" href="ruta/al/icono.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+        .social-media a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 24px;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .instagram { background-color: #e1306c; }
+        .youtube { background-color: #FF0000; }
+        
+        .noticia {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .noticia h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .noticia p {
+            margin: 5px 0;
+        }
+        .noticia a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .noticia a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+    <script>
+        function calcularProfundidad() {
+            var longitud = document.getElementById("longitud").value;
+            var profundidad = (2 * longitud) / 100;
+            document.getElementById("resultado").innerText = "Profundidad: " + profundidad + " metros";
+        }
+        </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Problemas Ambientales en Chalco</h1>
+            <h2>La Basura como Factor Principal de las Aguas Pluviales</h2>
+            <nav>
+                <ul>
+                     <li><a href="#JUSTIFICACION">JUSTIFICACION</a></li>
+                     <li><a href="#SOLUCION ">POSIBLE SOLUCION</a></li>
+                     <li><a href="#NOTICIAS ">NOTICIAS</a></li>
+                     <li><a href="#PENDIENTE ">PENDIENTE</a></li>
+                     <li><a href="#FORMULA ">FORMULA</a></li>
+                     <li><a href="#REDESSOCIALES ">REDES SOCIALES</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container main">
+        <section id="JUSTIFICACION">
+            <h2>¿Qué condiciones afrenta actualmente Chalco?</h2>
+            <p>La gestión de residuos en Chalco es deficiente, causando contaminación, inundaciones y daños económicos. Es necesario implementar una solución sostenible que mejore el manejo de residuos, reduzca los efectos negativos en la infraestructura y mejore la calidad de vida en la zona.</p>
+            <ul>
+                 <li>Mejorar el sistema de drenaje.</li>
+                 <li>Implementar programas de reciclaje.</li>
+                 <li>Educación ambiental.</li>
+                 <li>Inversión en infraestructura y tecnologías para el manejo de residuos.</li>
+            </ul>
+            <div class="center">
+                <img src="https://s.yimg.com/ny/api/res/1.2/GyHbrtT9gVW2hi.fjQXo8g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM5Mg--/https://media.zenfs.com/es/eluniversal.com.mx/698b4c1a3f19e059c7f8ea95d03302fd" alt="Imagen de Chalco en los últimos días :(">
+            </div>
+        </section>
+
+<!--MAS SECCIONES?-->
+
+        <section id="SOLUCION">
+        <h2>SOLUCION PROPUESTA</h2>    
+        <p>AAAAAAAA</p>
+        </section>
+
+        <section id="NOTICIAS">
+        <h2>NOTICIAS</h2>    
+        <div class="noticia">
+        <h2>Declaran emergencia en Chalco, un mes después de inundaciones que afectaron a más de 3,800 viviendas</h2>
+        <h4>El Economista</h5>
+        <p>El Gobierno de Edomex declara emergencia por inundaciones, afectando a 2,640 habitantes y 3,867 viviendas, buscando acceder al FIDESAAEM para recursos de mitigación y recuperación.</p>
+        <a href="https://www.eleconomista.com.mx/politica/declaran-emergencia-chalco-mes-inundaciones-afectaron-mas-3-800-viviendas-20240928-727861.html" target="_blank">Leer más</a>
+        </div>
+<!--separador-->
+        <div class="noticia">
+        <h2>Edomex emite declaratoria de emergencia en Chalco tras las severas inundaciones</h2>
+        <h4>LATINUS</h5>
+        <p>La declaratoria, publicada a 36 días de que comenzaran las afectaciones en el municipio, señala que hay al menos cinco colonias con afectaciones críticas</p>
+        <a href="https://latinus.us/mexico/2024/9/27/edomex-emite-declaratoria-de-emergencia-en-chalco-tras-las-severas-inundaciones-124742.html" target="_blank">Leer más</a>
+<!--separador-->
+        <div class="noticia">
+        <h2>Declaran emergencia en Chalco… tras 36 días entre inundaciones</h2>
+        <h4>MILENIO</h5>
+        <p>Luego de 36 días de inundaciones y la solicitud reiterada de las familias afectadas, se publicó la Declaratoria de Emergencia para las zonas afectadas</p>
+        <a href="https://www.milenio.com/estados/declaran-emergencia-en-chalco-tras-36-dias-entre-inundaciones" target="_blank">Leer más
+        </a>
+        </section>
+
+        <section id="PENDIENTE">
+            <h2>Norma del 2% de pendiente</h2>
+            <p>La pendiente mínima del 2% es crucial para asegurar un flujo adecuado de agua en sistemas de drenaje, evitando la acumulación de agua y problemas de inundación.</p>
+            <p>Esta inclinación asegura que el agua fluya eficientemente hacia los desagües, evitando estancamientos que pueden causar malos olores y condiciones insalubres. Además, una pendiente adecuada protege la infraestructura de daños por erosión y desgaste, prolongando su vida útil. En México, esta especificación se encuentra en los documentos de la Secretaría de Comunicaciones y Transportes (SCT), como el N·CTR·PUE·1·02·004/14.s</p>
+            <p>Esto se puede calcula mediante la formua: (2 x Longitud) / 100</p>
+        </section>
+
+        <section id="FORMULA">
+            <h2>Calcular Profundidad</h2>
+            <p>Introduce la longitud en metros para calcular la profundidad:</p>
+            <input type="number" id="longitud" placeholder="Longitud en metros">
+            <button onclick="calcularProfundidad()">Calcular</button>
+            <p id="resultado"></p>
+        </section>
+        <br></br>
+        <section id="REDESSOCIALES">
+        <h2>REDES SOCIALES</h2>    
+        <p>Si te interesa, puedes visitar nuestras redes sociales:</p>
+        <div class="social-media">
+        <a href="https://www.instagram.com/challihackaton4?igsh=MWI2YW55r0Ws0MGo4dw==" class="instagram">Instagram</a>
+        <a href="https://youtube.com/@challi-hackaton?si=Dkocy4vX1JM7vBJx"class="youtube">Youtube</a>
+        </div>
+        </section>
+
+
+    </div>
+
+    <footer>
+        <p>© 2024 C H A L L I</p>
+        <p>INSTITUTO POLITÉCNICO NACIONAL</p>
+    </footer>
+</body>
+</html>
